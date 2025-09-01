@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hidden Cave</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .mysterious {
+      color: #9999ff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Cave dripping water sounds -->
+<audio src="../sounds/cave_drip.mp3" autoplay loop volume="0.5"></audio>
+
+<pre>
+    ╔══════════════════╗
+    ║                  ║
+    ║   ∩           ∩  ║   ← Stalactites
+    ║     ∩   ∩   ∩    ║
+    ║                  ║
+    ║       💎         ║   ← Mysterious crystal
+    ║     ╔═══╗        ║
+    ║     ║ @ ║        ║   ← You (in shallow water)
+    ║     ╚═══╝        ║
+    ║   ≋≋≋≋≋≋≋≋≋≋≋    ║   ← Underground stream
+    ║                  ║
+    ╚══════════════════╝
+       ENTRANCE
+</pre>
+
+<p><strong class="mysterious">You've discovered a hidden cave with a glowing crystal!</strong></p>
+
+<p>The cave is larger than it appeared from outside. Water drips steadily from the stalactites above, creating small pools on the rocky floor. The air is cool and humid, filled with the echo of your footsteps.</p>
+
+<p><span class="mysterious">In the center of the cave, a beautiful blue crystal emanates a soft, otherworldly glow.</span> The light dances across the wet cave walls, creating mesmerizing patterns. You can feel a strange energy emanating from the crystal - it seems to pulse with magic.</p>
+
+<p>An underground stream runs along one side of the cave, its clear water reflecting the crystal's light. The stream seems to flow deeper into the mountain.</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../endings/secret.html">💎 Touch the magical crystal (mysterious choice)</a></li>
+  <li><a href="../rooms/room1.html">🚪 Return to the dungeon entrance (go back outside)</a></li>
+  <li><a href="../endings/death.html">🌊 Follow the underground stream deeper (risky adventure)</a></li>
+  <li>
+    <details>
+      <summary style="color: #ffff00; cursor: pointer;">🔍 Search the cave walls carefully</summary>
+      <p style="margin-top: 10px;">You discover ancient cave paintings depicting heroes and monsters!</p>
+      <p style="color: #9999ff;">The paintings seem to tell a story of great treasure hidden beneath the earth...</p>
+    </details>
+  </li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong>Inventory:</strong> Empty
+</div>
+
+<p style="color: #9999ff; font-style: italic;">The crystal's glow seems to call to you, promising secrets beyond imagination...</p>
+
+</body>
+</html>

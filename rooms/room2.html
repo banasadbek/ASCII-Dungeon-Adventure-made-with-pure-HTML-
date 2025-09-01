@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dark Hallway</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .danger {
+      color: #ff4444;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Tense dungeon music with goblin growls -->
+<audio src="../sounds/goblin_encounter.mp3" autoplay loop volume="0.4"></audio>
+
+<pre>
+    ###################
+    #                 #
+    #       ^^^       #   ← Stone spikes above
+    #     ┌─────┐     #
+    #     │  👹  │     #   ← GOBLIN blocking path!
+    #     │ENEMY│     #
+    #     └─────┘     #
+    #                 #
+    #        @        #   ← You (unarmed)
+    #                 #
+    ###################
+    #   ENTRANCE      #
+    ###################
+</pre>
+
+<p><strong class="danger">A menacing goblin blocks your path!</strong></p>
+
+<p>You've entered a dark stone hallway lit only by flickering torches on the walls. The shadows dance ominously, and you can hear the drip of water echoing from somewhere deeper in the dungeon.</p>
+
+<p><span class="danger">Suddenly, a snarling goblin jumps out from behind a pillar!</span> Its yellow eyes gleam with malice as it brandishes a crude club. The creature is small but looks vicious, and it's clearly guarding this passage.</p>
+
+<p>Without a weapon, you feel vulnerable. The goblin seems to sense your weakness and growls menacingly, blocking your way forward.</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../endings/death.html">⚔️ Try to fight the goblin with bare hands (very dangerous!)</a></li>
+  <li><a href="../rooms/room1.html">🏃 Retreat back to the entrance (run away)</a></li>
+  <li><a href="../endings/death.html">🎯 Try to sneak past the goblin (risky!)</a></li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong>Inventory:</strong> Empty
+</div>
+
+<p style="color: #ff6666; font-style: italic;">Without a weapon, your options are limited and dangerous...</p>
+
+</body>
+</html>

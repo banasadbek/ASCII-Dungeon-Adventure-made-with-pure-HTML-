@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Treasure Chamber</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .treasure {
+      color: #ffdd00;
+    }
+    .inventory {
+      color: #00ffff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Triumphant treasure music -->
+<audio src="../sounds/victory_treasure.mp3" autoplay loop volume="0.4"></audio>
+
+<pre>
+    ###################
+    #                 #
+    #  💰   💰   💰   #   ← Piles of gold!
+    #     ┌─────┐     #
+    #     │ 💎  │     #   ← Treasure chest
+    #     │CHEST│     #
+    #     └─────┘     #
+    #  💰      💰     #
+    #       @         #   ← You (victorious!)
+    #  👹 (defeated)  #   ← Goblin (no longer a threat)
+    ###################
+    #     HALLWAY     #
+    ###################
+</pre>
+
+<p><strong class="treasure">Victory! You've defeated the goblin and found the treasure chamber!</strong></p>
+
+<p>After your successful battle with the goblin, you discover that it was guarding the entrance to this magnificent treasure chamber. Piles of ancient gold coins glitter in the torchlight, and precious gems are scattered across the floor like fallen stars.</p>
+
+<p><span class="treasure">In the center of the room sits an ornate treasure chest, its surface decorated with intricate carvings and inlaid with precious stones.</span> The chest appears to be unlocked, as if waiting for a worthy adventurer to claim its contents.</p>
+
+<p>The air shimmers with the reflection of countless treasures. You have achieved what many adventurers have only dreamed of - you've found the legendary treasure of the ancient dungeon!</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../endings/win.html">💰 Take the treasure and escape the dungeon (claim your reward!)</a></li>
+  <li><a href="../endings/win.html">💎 Open the treasure chest (see what's inside)</a></li>
+  <li>
+    <details>
+      <summary style="color: #ffff00; cursor: pointer;">🔍 Examine the room for hidden secrets</summary>
+      <p style="margin-top: 10px; color: #ffdd00;">You notice a hidden passage behind the treasure chest!</p>
+      <p><a href="../endings/secret.html">🚪 Enter the secret passage (ultimate adventure)</a></p>
+    </details>
+  </li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong class="inventory">Inventory:</strong> <span class="inventory">⚔️ Rusty Sword</span>
+</div>
+
+<p style="color: #ffdd00; font-style: italic;">Congratulations, brave adventurer! Your courage and preparation have paid off!</p>
+
+</body>
+</html>

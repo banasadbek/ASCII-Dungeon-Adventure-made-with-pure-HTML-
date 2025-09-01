@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Peaceful Forest</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Peaceful forest sounds -->
+<audio src="../sounds/forest_birds.mp3" autoplay loop volume="0.3"></audio>
+
+<pre>
+       🌲    🌲    🌲
+    🌲    🌿    🌲    🌲
+  🌲   🌺    @    🌿   🌲   ← You are safe here
+    🌲    🌿    🌲    🌲
+  🌿   🌲    🌲    🌿   🌲
+    🌲    🌲    🌲    🌲
+      🌿    🌲    🌿
+        🏛️ DUNGEON 🏛️
+         (to the east)
+</pre>
+
+<p><strong>You are in a peaceful forest clearing.</strong></p>
+
+<p>Sunlight filters through the canopy above, creating dappled patterns on the forest floor. Birds chirp peacefully in the distance, and a gentle breeze rustles the leaves. The air is fresh and clean, a stark contrast to the musty atmosphere of the dungeon.</p>
+
+<p>Wildflowers bloom in small patches among the ferns, and you can hear the distant sound of a babbling brook. This place feels safe and serene, far removed from any danger.</p>
+
+<p>To the east, you can see the ominous stone entrance to the dungeon. The contrast between this peaceful place and that dark portal is striking.</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../rooms/room1.html">🏛️ Return to the dungeon entrance (go back east)</a></li>
+  <li><a href="../endings/win.html">🌺 Rest among the flowers and enjoy the peace (peaceful ending)</a></li>
+  <li>
+    <details>
+      <summary style="color: #ffff00; cursor: pointer;">🔍 Explore deeper into the forest</summary>
+      <p style="margin-top: 10px;">You wander deeper and get lost in the endless woods. Perhaps adventure isn't for everyone...</p>
+      <p><a href="../endings/win.html">🌲 Live peacefully as a forest hermit</a></p>
+    </details>
+  </li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong>Inventory:</strong> Empty
+</div>
+
+<p style="color: #66ff66; font-style: italic;">Sometimes the greatest treasure is knowing when to walk away from danger.</p>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dungeon Entrance</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Dungeon entrance ambient sounds -->
+<audio src="../sounds/dungeon_entrance.mp3" autoplay loop volume="0.4"></audio>
+
+<pre>
+    ###################
+    #                 #
+    #    ┌─────────┐   #
+    #    │ DUNGEON │   #
+    #    │ENTRANCE │   #
+    #    └─────────┘   #
+    #                 #
+    #        @         #   ← You are here
+    #                 #
+    #     ⚔️ sword     #   ← An old rusty sword lies here
+    #                 #
+    ###################
+         |       |
+      FOREST   CAVE
+</pre>
+
+<p><strong>You stand at the entrance of an ancient dungeon.</strong></p>
+
+<p>The massive stone archway towers above you, carved with mysterious runes that seem to glow faintly in the dim light. The air is thick with the scent of moss and dampness. You can hear strange echoes coming from deep within the darkness ahead.</p>
+
+<p>An old rusty sword lies abandoned on the ground near your feet. It looks like it might still be useful, despite its worn appearance.</p>
+
+<p>To your left, a path leads back to the safety of the forest. To your right, you notice a narrow cave entrance partially hidden by vines.</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../rooms/room2.html">🚪 Enter the dungeon (proceed into the darkness)</a></li>
+  <li><a href="../rooms/forest.html">🌲 Return to the forest (go back to safety)</a></li>
+  <li><a href="../rooms/cave.html">🕳️ Explore the hidden cave (investigate the side path)</a></li>
+  <li><a href="../transitions/pickup_sword.html">⚔️ Pick up the rusty sword (take the weapon)</a></li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong>Inventory:</strong> Empty
+</div>
+
+</body>
+</html>

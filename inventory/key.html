@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dark Hallway - Armed & Key Found</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    pre {
+      font-size: 14px;
+      line-height: 1.2;
+      border: 1px solid #333;
+      padding: 10px;
+      background-color: #111;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .danger {
+      color: #ff4444;
+    }
+    .inventory {
+      color: #00ffff;
+    }
+    .special {
+      color: #ffdd00;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Tense music with magical key energy -->
+<audio src="../sounds/magical_tension.mp3" autoplay loop volume="0.4"></audio>
+
+<pre>
+    ###################
+    #                 #
+    #       ^^^       #   ← Stone spikes above
+    #     ┌─────┐     #
+    #     │  👹  │     #   ← GOBLIN (distracted!)
+    #     │ENEMY│     #
+    #     └─────┘     #
+    #           🗝️    #   ← Golden key (taken)
+    #      @ ⚔️       #   ← You (armed with sword & key)
+    #                 #
+    ###################
+    #   ENTRANCE      #
+    ###################
+</pre>
+
+<p><strong class="special">You've found a mysterious golden key!</strong></p>
+
+<p>While the goblin was focused on your sword, you spotted something glinting in the shadows - a beautiful golden key with intricate engravings! You quickly grabbed it while keeping your weapon ready.</p>
+
+<p>The key feels warm to the touch and seems to pulse with a faint magical energy. Ancient runes are carved along its length, and it appears to be made of pure gold. This is clearly no ordinary key - it must unlock something very special.</p>
+
+<p>The goblin notices you've found something and looks even more nervous. It seems to recognize the key and takes another step back, fear now clearly visible in its eyes.</p>
+
+<h3>What do you choose to do?</h3>
+
+<ul>
+  <li><a href="../transitions/battle_victory.html">⚔️ Fight the goblin (you're well-equipped now!)</a></li>
+  <li><a href="../inventory/sword.html">🏃 Retreat back to the entrance (return to safety)</a></li>
+  <li><a href="../rooms/treasure.html">🎯 Intimidate the goblin with your sword (very likely to work!)</a></li>
+  <li><a href="../endings/secret.html">🗝️ Look for a hidden door that the key might unlock</a></li>
+</ul>
+
+<div style="margin-top: 30px; padding: 10px; border: 1px solid #333; background-color: #111;">
+  <strong class="inventory">Inventory:</strong> <span class="inventory">⚔️ Rusty Sword, 🗝️ Golden Key</span>
+</div>
+
+<p style="color: #ffdd00; font-style: italic;">With both sword and key in hand, you feel like a true adventurer! What secrets might this key unlock?</p>
+
+</body>
+</html>

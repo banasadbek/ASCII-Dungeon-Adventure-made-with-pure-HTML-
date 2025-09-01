@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Game Over</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #ff4444;
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    pre {
+      font-size: 12px;
+      line-height: 1.2;
+      color: #ff6666;
+    }
+    a {
+      color: #ffff00;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border: 2px solid #ffff00;
+      display: inline-block;
+    }
+    a:hover {
+      background-color: #ffff00;
+      color: #000;
+    }
+    .death-message {
+      color: #ff4444;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Death sound effect -->
+<audio src="../sounds/death_sound.mp3" autoplay volume="0.6"></audio>
+
+<pre>
+     ██████╗  █████╗ ███╗   ███╗███████╗     ██████╗ ██╗   ██╗███████╗██████╗ 
+    ██╔════╝ ██╔══██╗████╗ ████║██╔════╝    ██╔═══██╗██║   ██║██╔════╝██╔══██╗
+    ██║  ███╗███████║██╔████╔██║█████╗      ██║   ██║██║   ██║█████╗  ██████╔╝
+    ██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗
+    ╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║
+     ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝
+</pre>
+
+<pre>
+                                ⚰️
+                              ┌─────┐
+                              │ R.I.P │
+                              │  @   │   ← You (deceased)
+                              │      │
+                              └─────┘
+                            💀 💀 💀 💀 💀
+</pre>
+
+<div class="death-message">
+  <p><strong>Your adventure has come to a tragic end...</strong></p>
+</div>
+
+<p>Whether you faced the goblin without proper preparation, got lost in the underground stream, or made another fateful choice, your journey ends here in the depths of the dungeon.</p>
+
+<p>Adventure is dangerous, and not all who seek glory find it. Your bones will join the countless others who dared to enter this cursed place unprepared.</p>
+
+<p style="color: #888; font-style: italic;">But every death teaches us something. Perhaps you'll be wiser on your next attempt...</p>
+
+<h3>The adventure doesn't have to end here!</h3>
+
+<div>
+  <a href="../index.html">🔄 Try Again</a>
+  <a href="../rooms/room1.html">⚡ Restart at Entrance</a>
+</div>
+
+<p style="margin-top: 40px; color: #666; font-size: 14px;">
+  Remember: Preparation and careful choices are the keys to survival in any adventure.
+</p>
+
+</body>
+</html>
